@@ -101,7 +101,7 @@ main nav .profile {
   height: 40px;
   border-radius: 20px;
   border: none;
-  background-image: url("./images/profile.jpg");
+  background-image: url("../images/profile.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -291,10 +291,15 @@ main .slider .slide--active .slide__content {
   -webkit-transform: translateX(0);
           transform: translateX(0);
   opacity: 1;
-  -webkit-transition: opacity .7s ease-out 1s, -webkit-transform .9s ease-in-out .7s;
-  transition: opacity .7s ease-out 1s, -webkit-transform .9s ease-in-out .7s;
-  transition: transform .9s ease-in-out .7s, opacity .7s ease-out 1s;
-  transition: transform .9s ease-in-out .7s, opacity .7s ease-out 1s, -webkit-transform .9s ease-in-out .7s;
+  -webkit-transition: opacity .7s ease-out 1s,
+ -webkit-transform .9s ease-in-out .7s;
+  transition: opacity .7s ease-out 1s,
+ -webkit-transform .9s ease-in-out .7s;
+  transition: transform .9s ease-in-out .7s,
+ opacity .7s ease-out 1s;
+  transition: transform .9s ease-in-out .7s,
+ opacity .7s ease-out 1s,
+ -webkit-transform .9s ease-in-out .7s;
 }
 
 main .content {
